@@ -1,8 +1,27 @@
+/* Navbar */
+
 #p11{
-    
-background: blue;
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  
+    background-color: blue;
+    padding: 15px 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#p11 h2{
+    color: white;
+    margin: 0;
+}
+
+.nav-buttons{
+    display: flex;
+    gap: 15px;
+}
+
+/* Optional Hover Effect */
+
+.nav-buttons button:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
 }
